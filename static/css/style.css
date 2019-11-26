@@ -1,0 +1,26 @@
+img {
+	image-rendering: pixelated;
+	float: right;
+}
+
+#file, #text, #code, #viewerImg, #send{
+	margin: 20px;
+}
+
+div {
+	float: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+#text {
+	width: 38%;
+	resize: vertical;
+	min-height: 5em;
+}
+
+#download {
+	outline: none;
+	text-decoration: none;
+	visibility: hidden;
+}

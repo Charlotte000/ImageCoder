@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>Test</title>
+		<script type="text/javascript", src="{{ url_for('static', filename='js/main.js') }}"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+	</header>
+
+    <body>
+        <h1>The Great Image Coder & Decoder</h1>
+
+        <div>
+
+            <input type='file' id='file' accept="image/jpeg, image/png">
+            <button onclick="document.getElementById('file').value = ''">X</button>
+
+            <img id='viewerImg' src='https://via.placeholder.com/350.png?text=x' width='350'>
+            <hr>
+
+            <textarea type='text' id='text' autocomplete="off" placeholder="Text"></textarea>
+
+            <hr>
+
+            <button onclick="send()" id='send'>Send</button>
+            <input type='number' id='code' min='1' max='999999' value='1' step='1' placeholder="Key" autocomplete="off">
+
+            <a id='download' href="" download><button>Download</button></a>
+
+        </div>
+    </body>
+</html>
