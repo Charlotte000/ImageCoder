@@ -44,4 +44,4 @@ def img2text():
 	# Send text
 	return text
 
-app.run()
+# app.run()
