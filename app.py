@@ -44,4 +44,4 @@ def img2text():
 	# Send text
 	return text
 
-app.run(debug=True)
+app.run(port=8000)
