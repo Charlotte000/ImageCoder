@@ -1,11 +1,3 @@
-function encodeBS64(str) {
-	return window.btoa(encodeURI(str));
-}
-
-function decodeBS64(str) {
-    return decodeURI(window.atob(str));
-}
-
 function send() {
 	if (document.getElementById('file').files.length > 0) {
 		// Get file from file input
