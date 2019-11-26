@@ -17,3 +17,6 @@ Run *app.py*
 1. Open your image
 2. Set public key
 3. Decode your message
+
+# Safety
+I'm not sure of any safety properties so use it at your own risk
