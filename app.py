@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, send_file
 from ImageCoder import i2t, t2i
 
 from PIL import Image
-import base64
 from io import BytesIO
 
 import urllib.parse
@@ -44,4 +43,5 @@ def img2text():
 	# Send text
 	return text
 
-app.run()
+if __name__ == '__main__':
+	app.run()
